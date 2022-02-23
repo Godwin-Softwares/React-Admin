@@ -1,3 +1,6 @@
+import pic from './assets/godwin.jpg';
+
+
 export const userData = [
     {
       name: 'Jan',
@@ -49,3 +52,76 @@ export const userData = [
     },
     
   ];
+
+
+  export const userRows = [
+  { id: 1, username: 'Snow', 
+  avatar:pic,
+  email: "godwin@gmail.com",
+  status:"active",
+  transaction:"$120"
+}, 
+{ id: 2, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 3, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 4, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 5, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 6, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 7, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 8, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 9, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+{ id: 10, username: 'Snow', 
+avatar:pic,
+email: "godwin@gmail.com",
+status:"active",
+transaction:"$120"
+
+},
+];
