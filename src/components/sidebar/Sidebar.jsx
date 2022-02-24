@@ -13,6 +13,7 @@ import ManageAccountsOutlinedIcon from '@mui/icons-material/ManageAccountsOutlin
 import AnalyticsOutlinedIcon from '@mui/icons-material/AnalyticsOutlined';
 import ReportGmailerrorredOutlinedIcon from '@mui/icons-material/ReportGmailerrorredOutlined';
 import './sidebar.css'
+import {Link} from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -35,12 +36,18 @@ const Sidebar = () => {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
+                    <Link to='/users' className='link'>
                     <li className="sidebarListItem">
                         <PersonOutlineOutlinedIcon className="sidebarIcon"/> Users
                     </li>
-                    <li className="sidebarListItem">
-                        <Inventory2OutlinedIcon className="sidebarIcon"/> Products
-                    </li>
+                    </Link>
+                    <Link to='/products' className='link'>
+                        <li className="sidebarListItem">
+                            <Inventory2OutlinedIcon className="sidebarIcon"/> Products
+                        </li>
+                    </Link>
+                    
+                    
                     <li className="sidebarListItem">
                         <PaidOutlinedIcon className="sidebarIcon"/> Transaction
                     </li>
