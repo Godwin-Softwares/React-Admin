@@ -125,3 +125,94 @@ transaction:"$120"
 
 },
 ];
+
+
+export const productRows = [
+  { id: 1, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 2, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 3, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 4, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 5, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 6, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 7, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 8, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 9, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+{ id: 10, 
+  name: 'Shoe', 
+  avatar:"https://i.ibb.co/pb7BRQK/shoe1.png",
+  stock: 123,
+  status:"active",
+  price:"$120"
+},
+];
+
+
+export const productData = [
+  {
+    name: 'Jan',
+    "Price": 3000,
+   },
+  {
+    name: 'Feb',
+    "Price": 3500,
+  },
+  {
+    name: 'Mar',
+    "Price": 6000,
+  },
+];
+
